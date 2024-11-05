@@ -84,7 +84,7 @@ function spawnSeed(x, y) {
 }
 
 function draw() {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 100; i++) {
     for (let seed of seeds) {
       growVine(seed); // Grow each vine from its seed
     }
